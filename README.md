@@ -6,6 +6,16 @@ An intelligent, RAG-based customer support agent designed to assist users in fin
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline that acts as a specialized sales and support assistant for Samsung mobile devices. It allows users to ask natural language questions about phone specifications, compare models, and get pricing information (converted to JOD) based on a structured dataset.
 
+## 📸 Workflow Diagrams
+
+### 1. Data Ingestion Pipeline
+![Data Ingestion Workflow](assets/Data-preparation.png)
+*This workflow handles fetching data from Google Drive, processing it, and embedding it into Pinecone.*
+
+### 2. AI Agent Chat Interface
+![AI Agent Workflow](assets/AI-agent.png)
+*This workflow manages the chat interface, memory, and retrieval (RAG) process.*
+
 **Key Features:**
 * **RAG Architecture:** Retains factual accuracy by grounding responses in a vectorized dataset of phone specs.
 * **Currency Localization:** Data pre-processed to display prices in Jordanian Dinar (JOD).
