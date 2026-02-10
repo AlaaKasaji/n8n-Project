@@ -9,11 +9,11 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline that act
 ## 📸 Workflow Diagrams
 
 ### 1. Data Ingestion Pipeline
-![Data Ingestion Workflow](assets/Data-preparation.png)
+![Data Ingestion Workflow](assets/Data-preparation.jpeg)
 *This workflow handles fetching data from Google Drive, processing it, and embedding it into Pinecone.*
 
 ### 2. AI Agent Chat Interface
-![AI Agent Workflow](assets/AI-agent.png)
+![AI Agent Workflow](assets/AI-agent.jpeg)
 *This workflow manages the chat interface, memory, and retrieval (RAG) process.*
 
 **Key Features:**
